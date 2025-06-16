@@ -19,4 +19,5 @@ referral.register_handlers(app)
 verify_token.register_handlers(app)
 
 # Run the bot
-app.run()
+if __name__ == "__main__":
+    app.run()
